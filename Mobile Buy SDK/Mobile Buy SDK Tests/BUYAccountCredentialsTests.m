@@ -25,7 +25,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <Buy/Buy.h>
+#import "Buy.h"
 
 @interface BUYAccountCredentialsTests : XCTestCase
 

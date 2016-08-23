@@ -25,7 +25,7 @@
 //
 
 @import XCTest;
-#import <Buy/Buy.h>
+#import "Buy.h"
 
 extern NSString * const BUYShopDomain_Placeholder;
 extern NSString * const BUYAPIKey_Placeholder;

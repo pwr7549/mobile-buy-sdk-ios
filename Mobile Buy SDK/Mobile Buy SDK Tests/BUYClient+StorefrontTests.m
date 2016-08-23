@@ -26,7 +26,7 @@
 
 @import UIKit;
 @import XCTest;
-#import <Buy/Buy.h>
+#import "Buy.h"
 #import "BUYTestConstants.h"
 #import "BUYCollection.h"
 #import "BUYClientTestBase.h"

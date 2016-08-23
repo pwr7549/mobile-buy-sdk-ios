@@ -27,7 +27,7 @@
 @import UIKit;
 @import XCTest;
 
-#import <Buy/Buy.h>
+#import "Buy.h"
 #import "BUYCheckout.h"
 
 @interface BUYCheckoutTest : XCTestCase

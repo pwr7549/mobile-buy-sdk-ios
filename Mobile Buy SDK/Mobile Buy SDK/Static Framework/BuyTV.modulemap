@@ -1,5 +1,5 @@
 //
-//  BUYApplePayToken.h
+//  BuyTV.modulemap
 //  Mobile Buy SDK
 //
 //  Created by Shopify.
@@ -24,15 +24,10 @@
 //  THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
-#import "BUYPaymentToken.h"
-
-@class PKPaymentToken;
-
-@interface BUYApplePayToken : NSObject <BUYPaymentToken>
-
-@property (nonatomic, strong, readonly) PKPaymentToken *paymentToken;
-
-- (instancetype)initWithPaymentToken:(PKPaymentToken *)paymentToken;
-
-@end
+framework module BuyTV {
+	umbrella header "BuyTV.h"
+	
+	export *
+	module * { export * }
+	link "c++"
+}
